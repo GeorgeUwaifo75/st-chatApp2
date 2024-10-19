@@ -1,8 +1,5 @@
 import streamlit as st
+from streamlit_chat import message
 
-with st.chat_message("assistant"):
-    st.write("Hello human")
-    
-prompt = st.chat_input("Say something")
-if prompt:
-    st.write(f"User has sent the following prompt: {prompt}")
+message("My message") 
+message("Hello bot!", is_user=True)  # align's the message to the right
