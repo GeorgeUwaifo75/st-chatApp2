@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 
-def do_config:
+def do_config():
    pass
 
 if __name__ == '__main__':
