@@ -1,5 +1,5 @@
 os
-streamlit
+Streamlit
 langchain
 langchain-community
 transformers
