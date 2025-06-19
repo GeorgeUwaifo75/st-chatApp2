@@ -1,5 +1,5 @@
-os
+google-generativeai
 streamlit
 langchain
-langchain-community
-torch
+langchain-community 
+langchain-google-genai
